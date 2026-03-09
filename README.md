@@ -1,8 +1,35 @@
-# inventory-analysis-sql
-SQL and python project analyzing daily inventory movements, including production, transfers, and consumption.
+# Inventory Analysis (SQL + Python)
 
-Extracts of project developed in 2023 for a small business needing to controll and track daily inventory accross multiple production sites and sale points.
+SQL and Python project analyzing daily inventory movements, including production, transfers, and consumption across multiple locations.
 
-This connected a tkinter user interface to a local sqlite data base. Althought the main business need was a daily snapshot of movements and inventory in each sales branch, detail is kept of each transfer, then an sqlite database was considered as the best approach for scalabilty (due to the number of records to be written). The tkinter interface feautred a way to manually enter or load the inputs of movements and a reporting module, not included for confidenciality reasons.
+## Overview
 
-In this project you can view some of the functions used in the app, the main query for daily snapshots and schema for the database.
+This project is an extract from a system developed in 2023 for a small business that needed to control and track daily inventory across multiple production sites and sales points.
+
+The system connected a Tkinter user interface to a local SQLite database. The main business requirement was generating a daily snapshot of inventory movements and balances for each sales branch.
+
+Detailed records were kept for each transfer and movement. SQLite was chosen as the database engine due to its simplicity, reliability, and ability to handle the growing number of operational records.
+
+## Features
+
+- Recording daily inventory movements
+- Tracking production, transfers, and sales
+- Generating daily inventory snapshots
+- Storing operational data in a structured relational database
+
+## Repository Contents
+
+This repository includes selected components of the original project:
+
+- Database schema
+- Core SQL query used to generate daily inventory snapshots
+- Selected Python functions used in the application
+
+The reporting module and full application code are not included for confidentiality reasons.
+
+## Tech Stack
+
+- Python
+- SQLite
+- Tkinter
+- SQL
